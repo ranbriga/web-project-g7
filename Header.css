@@ -1,0 +1,76 @@
+.Logo {
+    display: table;
+    height:50px;
+    width:100%;
+    text-align:center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Sign-in{
+    display: table-cell;
+    width: 5%;
+}
+
+.Cart{
+    width: 5%;
+    display: table-cell;
+}
+
+
+.Logo2{
+    display: table-cell;
+    width: 80%;
+    font-size: 30px;
+}
+
+.Facebook{
+    width: 5%;
+    display: table-cell;
+}
+
+.Instagram{
+    width: 5%;
+    display: table-cell;
+}
+
+.Menu {
+    display: table;
+    width:100%;
+    text-align:center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    border-top: black solid 2px;
+    border-bottom: black solid 2px;
+}
+
+.Menu :hover{
+    font-weight: bold;
+}
+
+.Home{
+    display: table-cell;
+    width: 20%;
+}
+
+.Gallery{
+    width: 20%;
+    display: table-cell;
+}
+
+
+.Treatment{
+    display: table-cell;
+    width: 20%;
+}
+
+.Shop{
+    display: table-cell;
+    width: 20%;
+}
+
+.Info{
+    display: table-cell;
+    width: 20%;
+}
