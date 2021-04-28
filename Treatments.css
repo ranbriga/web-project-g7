@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+.row{/*:after{
+    content : "";
+    clear: both;
+    display: block;*/
+    width:75%;
+    margin: auto;
+    text-align: center;
+}
+    [class*="col-"]{
+    float: left;
+    padding: 50px;
+    }
+
+/* For desktop: */
+.col-1 {width: 50%;}
+.col-2 {width: 85%;}
+
+
+  @media only screen and (max-width: 1000px){
+    /* For mobile phones: */
+    [class*="col-"]{
+     width: 100%;
+    }
+    [class="col-1"]{
+     height: 50px;
+    }
+  }
+
+  .main1 {
+          position: relative;
+          text-align: center;
+          margin-top :50px;
+          background: url("tattoo_gallery.jpg") center;
+          color: white;
+  }
+   .col-2 right main1{
+          position: absolute;
+          font-size: 30px;
+    }
+
+    .main2{
+          position: relative;
+          text-align: center;
+          margin-top :50px;
+          background: url("tattoo_gallery.jpg") center;
+          color: white;
+  }
+    .col-2 right main2{
+          position: absolute;
+          font-size: 30px;
+    }

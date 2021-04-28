@@ -1,0 +1,20 @@
+/*.Tattoo_treatments_page{
+    width:40%;
+    /*margin: auto;
+    text-align: center;
+}*/
+
+.Snake_photo{
+    margin-top: 100px;
+    width: 40%;
+    margin-left: 10%;
+    float: left;
+}
+
+.Treatment_Text{
+    margin-top: 70px;
+    width: 40%;
+    margin-right: 10%;
+    float: right;
+    line-height: 25px;
+}
