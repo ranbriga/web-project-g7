@@ -3,35 +3,38 @@
     height:50px;
     width:100%;
     text-align:center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .Sign-in{
     display: table-cell;
     width: 5%;
+    vertical-align: middle;
 }
 
 .Cart{
     width: 5%;
     display: table-cell;
+    vertical-align: middle;
 }
 
 
 .Logo2{
     display: table-cell;
     width: 80%;
-    font-size: 30px;
 }
 
 .Facebook{
     width: 5%;
     display: table-cell;
+    vertical-align: middle;
 }
 
 .Instagram{
     width: 5%;
     display: table-cell;
+    vertical-align: middle;
 }
 
 .Menu {
