@@ -1,30 +1,8 @@
-* {
-    box-sizing: border-box;
-    /*font-family:var(--choosen-font),sans-serif;*/
-    margin: 0;
-    padding: 0;
-}
-/*body{*/
-/*	background-image: linear-gradient(180deg, white, black);*/
-/*}*/
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .gallery-head {
     font-family: 'New Tegomin', serif;
     color: black;
     font-size: 60px;
     text-align: center;
-}
-
-.head {
-    width: 100%;
-    padding: 10px;
-    border: black;
 }
 
 .firstRow, .secondRow, .thirdRow {
@@ -37,39 +15,6 @@
     display: flex;
 }
 
-div.gallery {
-
-    float: right;
-    width: 25%;
-    padding: 20px;
-    cursor: pointer;
-    /*max-height: 300px;*/
-    /*  position: relative;*/
-    margin: 5px;
-}
-
-div.gallery:hover, div.gallery-table:hover {
-    opacity: 0.5;
-}
-
-
-div.gallery img {
-    width: 100%;
-    height: 180px;
-    overflow: hidden;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    border-color: black;
-
-}
-
-
-.container {
-    width: 100%;
-    height: 100%;
-}
-
 .trans {
     transition: all 1s ease;
     -moz-transition: all 1s ease;
@@ -80,20 +25,12 @@ div.gallery img {
 
 .top {
     display: flex;
-    width: 80vw;
-    height: 80vh;
+    width: 75%;
+    height: 600px;
     margin-top: 10vh;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10vh;
-}
-
-.top ul {
-    list-style: none;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    box-sizing: border-box;
 }
 
 .top ul li {
@@ -106,16 +43,11 @@ div.gallery img {
 
 .top ul li::before {
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     background-color: #000;
     content: '';
-    color: white;
     opacity: 0.4;
-    text-align: center;
-    box-sizing: border-box;
     pointer-events: none;
     transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -131,9 +63,9 @@ div.gallery img {
 
 .top ul li img {
     width: 100%;
+    height: 100%;
     height: auto;
     overflow: hidden;
-	margin: 10px;
 }
 
 .lightbox {
