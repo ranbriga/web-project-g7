@@ -10,60 +10,48 @@
     <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
     <script src="gallery.js"></script>
     <link rel="stylesheet" href="Header.css">
-    <div class="Logo">
-        <div class="Sign-in">
-            <img src="user.png" height="30px" width="30px"></img>
-        </div>
-        <div class="Cart">
-            <img src="cart.png" height="30px" width="30px"></img>
-        </div>
-        <div class="Logo2"><img src="logo.jpeg" alt="logo" width="90px" height="100px"></div>
-        <div class="Facebook">
-            <img src="facebook-icon.png" height="40px" width="40px"></img>
-        </div>
-        <div class="Instagram">
-            <img src="instagram-icon.png" height="40px" width="40px"></img>
-        </div>
-
-    </div>
-    <div class="Menu">
-        <div class="Home"> Home</div>
-        <div class="dropdown Gallery">
-            <button class="dropbtn">Gallery
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="#">Piercing</a>
-                <a href="#">Tattoo</a>
-            </div>
-        </div>
-        <div class="dropdown Treatment">
-            <button class="dropbtn">Treatment
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="#">For Piercing</a>
-                <a href="#">For Tattoo</a>
-            </div>
-        </div>
-
-        <div class="Shop"> Shop</div>
-        <div class="Info"> Info</div>
-    </div>
-    </div>
+    <link rel="stylesheet" href="Footer.css">
 </head>
 <nav></nav><!--להוסיף קישור לדפי האתר-->
 <body>
+<header>
+    <div class="Logo">
+                 <div class="Sign-in">
+                        <img src="user.png" height="30px" width="30px"></img>
+                 </div>
+                 <div class="Cart">
+                        <img src="cart.png" height="30px" width="30px"></img>
+                 </div>
+                 <div class="Logo2">
+                     <img src="logo.jpeg" height="80px" width="80px"></img>
+                 </div>
+                 <div class="Facebook">
+                        <img src="facebook.png" height="30px" width="30px"></img>
+                 </div>
+                 <div class="Instagram">
+                        <img src="instagram.png" height="30px" width="30px"></img>
+                 </div>
+
+             </div>
+             <div class="Menu">
+                 <div class="Home"> Home </div>
+                 <div class="Gallery"> Gallery </div>
+                 <div href="" class="Treatment"> Treatment </div>
+                 <div class="Shop"> Shop </div>
+                 <div class="Info"> Info </div>
+             </div>
+        </div>
+</header>
 <div class="row">
     <div class="head">
         <h1 id="top" class="gallery-head">Piercing Gallery</h1>
     </div>
 </div>
-
-<a href="#ears">ears</a>
-<a href="#Microdermal">Microdermal</a>
-<a href="#Eye-Brow">Eye Brow</a>
-
+<div class="parts">
+    <a href="#ears">Ears</a>
+    <a href="#Microdermal">Microdermal</a>
+    <a href="#Eye-Brow">Eye Brow</a>
+</div>
 
 <div class="row">
     <h2 id="ears" class="piercing-heads">Ears</h2>
@@ -89,7 +77,9 @@
             <a href="#_8" class="lightbox trans" id="img_8"><img src=lion.jpg></a>
         </div>
     </div>
-    <a href="#top">BACK UP</a>
+    <div class="back_up">
+        <a href="#top">BACK UP</a>
+    </div>
 </div>
 
 <div class="row">
@@ -116,7 +106,9 @@
             <a href="#_16" class="lightbox trans" id="img_16"><img src="tatto1.jpg"></a>
         </div>
     </div>
-    <a href="#top">BACK UP</a>
+    <div class="back_up">
+        <a href="#top">BACK UP</a>
+    </div>
 </div>
 
 
@@ -125,28 +117,35 @@
     <div class="container">
         <div class="top">
             <ul>
-                <li><a href="#img_17"><img src=hand.jfif></a></li>
-                <li><a href="#img_18"><img src=tatto1.jpg></a></li>
-                <li><a href="#img_19"><img src=hand.jfif></a></li>
-                <li><a href="#img_20"><img src=hand.jfif></a></li>
-                <li><a href="#img_21"><img src=lion.jpg></a></li>
-                <li><a href="#img_22"><img src=tatto1.jpg></a></li>
-                <li><a href="#img_23"><img src=tatto1.jpg></a></li>
-                <li><a href="#img_24"><img src=lion.jpg></a></li>
+                <li><a href="#img_17"><img src="piercing_treatments_photo.jpg"></a></li>
+                <li><a href="#img_18"><img src="piercing_treatments_photo.jpg"></a></li>
+                <li><a href="#img_19"><img src="piercing_treatments_photo.jpg"></a></li>
+                <li><a href="#img_20"><img src="piercing_treatments_photo.jpg"></a></li>
+                <li><a href="#img_21"><img src="piercing_treatments_photo.jpg"></a></li>
+                <li><a href="#img_22"><img src="piercing_treatments_photo.jpg"></a></li>
+                <li><a href="#img_23"><img src="piercing_treatments_photo.jpg"></a></li>
+                <li><a href="#img_24"><img src="piercing_treatments_photo.jpg"></a></li>
             </ul>
-            <a href="#_1" class="lightbox trans" id="img_17"><img src=hand.jfif></a>
-            <a href="#_2" class="lightbox trans" id="img_18"><img src=tatto1.jpg></a>
-            <a href="#_3" class="lightbox trans" id="img_19"><img src=hand.jfif></a>
-            <a href="#_4" class="lightbox trans" id="img_20"><img src=hand.jfif></a>
-            <a href="#_5" class="lightbox trans" id="img_21"><img src=lion.jpg></a>
-            <a href="#_6" class="lightbox trans" id="img_22"><img src=tatto1.jpg></a>
-            <a href="#_7" class="lightbox trans" id="img_23"><img src=tatto1.jpg></a>
-            <a href="#_8" class="lightbox trans" id="img_24"><img src=lion.jpg></a>
+            <a href="#_1" class="lightbox trans" id="img_17"><img src="piercing_treatments_photo.jpg"></a>
+            <a href="#_2" class="lightbox trans" id="img_18"><img src="piercing_treatments_photo.jpg"></a>
+            <a href="#_3" class="lightbox trans" id="img_19"><img src="piercing_treatments_photo.jpg"></a>
+            <a href="#_4" class="lightbox trans" id="img_20"><img src="piercing_treatments_photo.jpg"></a>
+            <a href="#_5" class="lightbox trans" id="img_21"><img src="piercing_treatments_photo.jpg"></a>
+            <a href="#_6" class="lightbox trans" id="img_22"><img src="piercing_treatments_photo.jpg"></a>
+            <a href="#_7" class="lightbox trans" id="img_23"><img src="piercing_treatments_photo.jpg"></a>
+            <a href="#_8" class="lightbox trans" id="img_24"><img src="piercing_treatments_photo.jpg"></a>
         </div>
     </div>
-    <a href="#top">BACK UP</a>
+    <div class="back_up">
+        <a href="#top">BACK UP</a>
+    </div>
 </div>
 </body>
+<footer>
+    <div class="Footer">
+        <div class="Contact"> Contact Us </div>
+        <div class="Privacy_policy"> Privacy Policy </div>
+        <div class="About"> About </div>
+    </div>
+</footer>
 </html>
-
-
