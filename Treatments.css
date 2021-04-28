@@ -1,55 +1,43 @@
-*{
-    box-sizing: border-box;
-}
 
-.row{/*:after{
-    content : "";
-    clear: both;
-    display: block;*/
+.row{
     width:75%;
-    margin: auto;
     text-align: center;
+    margin: auto;
 }
-    [class*="col-"]{
-    float: left;
-    padding: 50px;
-    }
 
-/* For desktop: */
-.col-1 {width: 50%;}
-.col-2 {width: 85%;}
-
-
-  @media only screen and (max-width: 1000px){
-    /* For mobile phones: */
-    [class*="col-"]{
-     width: 100%;
-    }
-    [class="col-1"]{
-     height: 50px;
-    }
-  }
+.row :hover{
+    font-size: 35px;
+}
 
   .main1 {
-          position: relative;
-          text-align: center;
-          margin-top :50px;
-          background: url("tattoo_gallery.jpg") center;
-          color: white;
+      height: 300px;
+      position: relative;
+      margin-top :50px;
+      background: url("Tattoo_Treatments_Photo.jpeg") center;
   }
-   .col-2 right main1{
-          position: absolute;
-          font-size: 30px;
-    }
+
+  .main1 a{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 30px;
+  }
 
     .main2{
-          position: relative;
-          text-align: center;
-          margin-top :50px;
-          background: url("tattoo_gallery.jpg") center;
-          color: white;
+        height: 300px;
+        position: relative;
+        margin-top :50px;
+        margin-bottom :50px;
+        background: url("piercing_treatments_photo.jpg") center;
   }
-    .col-2 right main2{
-          position: absolute;
-          font-size: 30px;
-    }
+
+    .main2 a{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 30px;
+  }
