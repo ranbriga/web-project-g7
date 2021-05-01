@@ -1,18 +1,21 @@
 .gallery-head {
     font-family: 'New Tegomin', serif;
-    color: black;
+    color: white;
     font-size: 60px;
     text-align: center;
+    padding-top: 10px;
 }
 
-.firstRow, .secondRow, .thirdRow {
-    align-content: center;
-    width: 90%;
-    overflow: auto;
-    margin-top: 10px;
-    margin: auto;
-    padding-bottom: 0px;
-    display: flex;
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.background {
+    background-image: url(Balg6Fx.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
 }
 
 .trans {
@@ -30,7 +33,7 @@
     margin-top: 10vh;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10vh;
+    margin-bottom: auto;
 }
 
 .top ul li {
@@ -116,7 +119,7 @@
     -webkit-transform: translateY(-50%);
 }
 
-.piercing-heads{
-	text-align: center;
-	padding-top: 20px;
+.piercing-heads {
+    text-align: center;
+    padding-top: 20px;
 }
