@@ -7,8 +7,6 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
     <link rel="stylesheet" href="piercing%20gallery.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="Appoitment_popup.css">
-    <script src="HomePage.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
     <script src="piercing_gallery.js"></script>
     <link rel="stylesheet" href="Header.css">
@@ -19,23 +17,7 @@
 <header>
     <div class="Logo">
         <div class="Sign-in">
-            <img src="user.png" onclick="openSignIn()" height="30px" width="30px"></img>
-            <div class="form-popup" id="mySignIn">
-                    <form class="form-container">
-                        <h2>Login</h2>
-                        <label for="full_name"><b>Full Name</b></label>
-                        <br>
-                        <input type="text" placeholder="Enter Your Username" name="full_name" required>
-                        <br>
-                        <label for="password"><b>Password</b></label>
-                        <br>
-                        <input type="password" placeholder="Enter Your Password" name="password" required>
-                        <button type="submit" class="btn sign_in">Sign in</button>
-                        <button class="btn sign_up">Sign up</button>
-                        <br>
-                        <button class="btn cancel" onclick="closeSignIn()">Close</button>
-                    </form>
-            </div>
+            <img src="user.png" height="30px" width="30px"></img>
         </div>
         <div class="Cart">
             <img src="cart.png" height="30px" width="30px"></img>
@@ -49,13 +31,15 @@
         <div class="Instagram">
             <img src="instagram.png" height="30px" width="30px"></img>
         </div>
+
     </div>
     <div class="Menu">
-        <div class="Home"> Home </div>
-        <div class="Treatment"> Treatment</div>
-        <div class="Gallery"> Gallery </div>
+        <div class="Home"> Home</div>
+        <div class="Gallery"> Gallery</div>
+        <div href="" class="Treatment"> Treatment</div>
         <div class="Shop"> Shop</div>
         <div class="Info"> Info</div>
+    </div>
     </div>
 </header>
 
@@ -74,15 +58,15 @@
         <h2 id="ears" class="piercing-heads">Ears</h2>
         <div class="slideshow-container">
             <div class="mySlides1">
-                <img src="piercing_image/epi1.jpg" style="width:50%">
+                <img class="SlideImg" src="piercing_image/epi1.jpg" style="width:50%">
             </div>
 
             <div class="mySlides1">
-                <img src="piercing_image/epi2.jpg" style="width:50%">
+                <img class="SlideImg" src="piercing_image/epi2.jpg" style="width:50%">
             </div>
 
             <div class="mySlides1">
-                <img src="piercing_image/epi3.jpg" style="width:50%">
+                <img class="SlideImg"  src="piercing_image/epi3.jpg" style="width:50%">
             </div>
 
             <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
@@ -98,15 +82,15 @@
         <h2 id="Microdermal" class="piercing-heads">Microdermal</h2>
         <div class="slideshow-container">
             <div class="mySlides2">
-                <img src="piercing_image/micro1.jpg" style="width:50%">
+                <img class="SlideImg"  src="piercing_image/micro1.jpg" style="width:50%">
             </div>
 
             <div class="mySlides2">
-                <img src="piercing_image/micro2.jpg" style="width:50%">
+                <img class="SlideImg"  src="piercing_image/micro2.jpg" style="width:50%">
             </div>
 
             <div class="mySlides2">
-                <img src="piercing_image/mic3.jpg" style="width:50%">
+                <img class="SlideImg"  src="piercing_image/mic3.jpg" style="width:50%">
             </div>
 
             <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
