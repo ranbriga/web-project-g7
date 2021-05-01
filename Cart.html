@@ -6,13 +6,30 @@
         <link rel="stylesheet" href="Cart.css">
         <link rel="stylesheet" href="Header.css">
         <link rel="stylesheet" href="Footer.css">
+        <script src="HomePage.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
     <body>
         <header>
     <div class="Logo">
         <div class="Sign-in">
-            <img src="user.png" height="30px" width="30px"></img>
+            <img src="user.png" onclick="openSignIn()" height="30px" width="30px"></img>
+            <div class="form-popup" id="mySignIn">
+                    <form class="form-container">
+                        <h2>Login</h2>
+                        <label for="full_name"><b>Full Name</b></label>
+                        <br>
+                        <input type="text" placeholder="Enter Your Username" name="full_name" required>
+                        <br>
+                        <label for="password"><b>Password</b></label>
+                        <br>
+                        <input type="password" placeholder="Enter Your Password" name="password" required>
+                        <button type="submit" class="btn sign_in">Sign in</button>
+                        <button class="btn sign_up">Sign up</button>
+                        <br>
+                        <button class="btn cancel" onclick="closeSignIn()">Close</button>
+                    </form>
+            </div>
         </div>
         <div class="Cart">
             <img src="cart.png" height="30px" width="30px"></img>
