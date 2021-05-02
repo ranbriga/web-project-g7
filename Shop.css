@@ -39,6 +39,7 @@
     height: 300px;
     display: table-cell;
     width: 25%;
+    padding-bottom: 30px;
 }
 
 .product p{
