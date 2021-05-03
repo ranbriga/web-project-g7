@@ -61,11 +61,15 @@
   margin-top: 50px;
   border: none;
   background: url("wood_calendar.jpg");
-  font-size: 32px;
+  font-size: 30px;
   cursor: pointer;
-  text-align: left;
+  text-align: center;
   height: 300px;
   color: white;
+}
+
+.Appblock:hover{
+  font-size: 35px;
 }
 #Orderstext{
   position: absolute;
@@ -81,13 +85,17 @@
   width: 100%;
   border: none;
   background: url("shopping-cart-photo.jpg");
-  font-size: 32px;
+  font-size: 30px;
   cursor: pointer;
   margin-top: 20px;
   margin-bottom: 50px;
   height: 300px;
-  text-align: left;
+  text-align: center;
   color: white;
+}
+
+.Ordersblock:hover{
+  font-size: 35px;
 }
 
 #Ordersoverlay {
