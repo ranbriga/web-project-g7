@@ -35,6 +35,7 @@
 }
 
 .shop_text {
+    text-decoration: none;
     cursor:pointer;
     position: absolute;
     top: 50%;
@@ -64,6 +65,7 @@
 }
 
 .P_Gallery_text {
+    text-decoration: none;
     cursor:pointer;
     position: absolute;
     top: 20%;
@@ -90,6 +92,7 @@
 }
 
 .T_Gallery_text {
+    text-decoration: none;
     cursor:pointer;
     position: absolute;
     font-size: 20px;
