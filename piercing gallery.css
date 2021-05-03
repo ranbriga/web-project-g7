@@ -1,6 +1,7 @@
 * {box-sizing: border-box}
 
 .background {
+    margin-bottom:50px;
     background-image: url(Balg6Fx.jpg);
     background-repeat: no-repeat;
     background-position: center;
