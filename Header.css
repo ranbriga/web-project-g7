@@ -55,6 +55,11 @@
     border-bottom: black solid 2px;
 }
 
+.Menu a{
+    text-decoration: none;
+    color: black;
+}
+
 .Menu :hover{
     font-weight: bold;
 }
