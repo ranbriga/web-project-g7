@@ -3,7 +3,9 @@
 }
 
 .Users_Personal_page {
-
+  width: 75%;
+  text-align: center;
+  margin: auto;
 }
 
 /*.My_Appointment{
@@ -55,12 +57,10 @@
 }
 .Appblock {
   display: block;
-  width: 50%;
-  margin-left: 25%;
+  width: 100%;
   margin-top: 50px;
   border: none;
   background: url("wood_calendar.jpg");
-  padding: 14px 28px;
   font-size: 32px;
   cursor: pointer;
   text-align: left;
@@ -78,11 +78,9 @@
 }
 .Ordersblock {
   display: block;
-  width: 50%;
-  margin-left: 25%;
+  width: 100%;
   border: none;
   background: url("shopping-cart-photo.jpg");
-  padding: 14px 28px;
   font-size: 32px;
   cursor: pointer;
   margin-top: 20px;
