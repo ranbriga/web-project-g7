@@ -45,3 +45,18 @@
 .product p{
     vertical-align: middle;
 }
+
+.Add_To_Cart{
+    text-align: center;
+    border: 1px solid black;
+    background-color: lightgray;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 4px 10px;
+}
+
+.Add_To_Cart:hover{
+    background-color: grey;
+}
