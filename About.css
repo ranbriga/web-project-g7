@@ -29,6 +29,7 @@
   }
 
 .opt2 {
+    padding-bottom: 50px;
     position: relative;
     text-align: center;
     margin-top :5px;
@@ -48,6 +49,7 @@
 
 
 .opt3 {
+    padding-bottom: 50px;
     position: relative;
     text-align: center;
     margin-top :5px;
@@ -64,6 +66,7 @@
 }
 
  .opt4 {
+     padding-bottom: 50px;
     position: relative;
     text-align: center;
     margin-top :5px;
@@ -90,3 +93,7 @@
 
 
   }
+
+      #googleMap{
+          margin-top: 50px;
+      }
