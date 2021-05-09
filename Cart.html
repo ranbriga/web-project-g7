@@ -57,10 +57,9 @@
   <main>
             <div class="my-cart">
                 <div class="title">
-                    <h1>  סל קניות </h1>
+                    <h1>סל קניות</h1>
                 </div>
 
-                <h3>המוצרים שלי</h3>
 
                 <table class="my-products">
                     <tr>
@@ -76,17 +75,17 @@
                         <td>
 
                             <form class = "options" action="">
-                                <input type="checkbox" id="change3" name="change" value="Silver">
-                                <label for="change3"> כסף </label><br>
-                                <input type="checkbox" id="change" name="change" value="Gold">
+                                <input class="checki" type="checkbox" id="change3" name="change" value="Silver">
+                                <label for="change3">כסף</label><br>
+                                <input class="checki" type="checkbox" id="change" name="change" value="Gold">
                                 <label for="change">זהב</label>
                                 <br>
-                                <label for="quantity">כמות </label>
+                                <label for="quantity">כמות</label>
                                 <input type="number" id="quantity" name="quantity" min="1" max="20" value="1">
                             </form>
 
                         <td>
-                        ₪200
+                        <span class="total-price"> ₪200 </span>
                             <button class="del-btn"><img class="del" src="delete_pic.jpg" alt="delete"/></button>
                         </td>
                     </tr>
@@ -98,9 +97,9 @@
                         <td>
 
                             <form class = "options" action="">
-                                <input type="checkbox" id="change1" name="change11" value="Silver">
-                                <label for="change1"> כסף</label><br>
-                                <input type="checkbox" id="change2" name="change22" value="Gold">
+                                <input class="checki" type="checkbox" id="change1" name="change11" value="Silver">
+                                <label for="change1">כסף</label><br>
+                                <input class="checki" type="checkbox" id="change2" name="change22" value="Gold">
                                 <label for="change2">זהב</label>
                                 <br>
                                 <label for="quantity5">כמות </label>
@@ -109,7 +108,7 @@
 
                         </td>
                         <td>
-                            ₪200
+                        <span class="total-price"> ₪200 </span>
                             <button class="del-btn"><img class="del" src="delete_pic.jpg" alt="delete"/></button>
                         </td>
 
@@ -123,9 +122,7 @@
     <div class="Footer">
         <div class="Contact"> Contact Us </div>
         <div class="Privacy_policy"> Privacy Policy </div>
-        <div class="About">
-            <a href="About.html">About</a>
-        </div>
+        <div class="About"> About </div>
     </div>
 </footer>
 </html>
