@@ -31,8 +31,10 @@ main{
 }
 
 .title{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
+
+
 .prod-pic{
     width: 200Px;
 }
@@ -66,20 +68,31 @@ main{
     right: 30%;
 }
 
+.checki{
+    margin-bottom: 10px;
+}
+
+.total-price{
+    margin-right: 30px;
+    font-size: 20px;
+}
+
 .my-products td a{
     text-decoration: underline ;
 }
 
 .my-products td .del{
-
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
 
 }
 
 .del-btn{
+    background-color: transparent;
+    border: none;
+    float: left;
+    cursor: pointer;
     position: relative;
-    left: -100px;
 }
 
 .my-products td a:hover{
