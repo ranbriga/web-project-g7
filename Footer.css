@@ -32,3 +32,8 @@
     padding-top: 45px;
     width:33.333%;
 }
+
+.About a{
+    color: black;
+    text-decoration: none;
+}
