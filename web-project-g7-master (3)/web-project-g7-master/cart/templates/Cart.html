@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+        <title>Cart Page</title>
+        <link rel="stylesheet" href="../static/Cart.css">
+        <link rel="stylesheet" href="../../general/static/Header.css">
+        <link rel="stylesheet" href="../../general/static/Footer.css">
+        <link rel="stylesheet" href="../../appointment/static/Appoitment_popup.css">
+        <script src="../../homepage/static/HomePage.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+    <body>
+        <header>
+    <div class="Logo">
+        <div class="Sign-in">
+            <img src="../../general/static/user.png" onclick="openSignIn()" height="30px" width="30px"></img>
+            <div class="form-popup" id="mySignIn">
+                    <form class="form-container">
+                        <h2>Login</h2>
+                        <label for="full_name"><b>Full Name</b></label>
+                        <br>
+                        <input type="text" placeholder="Enter Your Username" name="full_name" required>
+                        <br>
+                        <label for="password"><b>Password</b></label>
+                        <br>
+                        <input type="password" placeholder="Enter Your Password" name="password" required>
+                        <button type="submit" class="btn sign_in">Sign in</button>
+                        <button class="btn sign_up">Sign up</button>
+                        <br>
+                        <button class="btn cancel" onclick="closeSignIn()">Close</button>
+                    </form>
+            </div>
+        </div>
+        <div class="Cart">
+            <img src="../static/cart.png" height="30px" width="30px"></img>
+        </div>
+        <div class="Logo2">
+            <img src="../../general/static/logo.jpeg" height="80px" width="80px"></img>
+        </div>
+        <div class="Facebook">
+            <img src="../../general/static/facebook.png" height="30px" width="30px"></img>
+        </div>
+        <div class="Instagram">
+            <img src="../../general/static/instagram.png" height="30px" width="30px"></img>
+        </div>
+    </div>
+    <div class="Menu">
+        <a href="../../homepage/templates/HomePage.html" class="Home">Home</a>
+        <a href="../../treatment/templates/Treatments.html" class="Treatment">Treatment</a>
+        <a href="../../gallery/tattoo%20gallery/templates/Gallery.html" class="Gallery">Gallery</a>
+        <a href="../../shop/templates/Shop.html" class="Shop">Shop</a>
+        <a href="../../User's%20Personal%20Page.html" class="Info">Info</a>
+    </div>
+</header>
+
+  <main>
+            <div class="my-cart">
+                <div class="title">
+                    <h1>סל קניות</h1>
+                </div>
+
+
+                <table class="my-products">
+                    <tr>
+                        <th>תמונה</th>
+                        <th>תיאור</th>
+                        <th>אפשרויות</th>
+                        <th>מחיר כולל</th>
+                    </tr>
+                    <tr>
+                        <td> <img class="prod-pic" src="../static/belly_piercing.jpg" alt="עגיל לבטן"/> </td>
+                        <td>עגיל לבטן
+                        </td>
+                        <td>
+
+                            <form class = "options" action="">
+                                <input class="checki" type="checkbox" id="change3" name="change" value="Silver">
+                                <label for="change3">כסף</label><br>
+                                <input class="checki" type="checkbox" id="change" name="change" value="Gold">
+                                <label for="change">זהב</label>
+                                <br>
+                                <label for="quantity">כמות</label>
+                                <input type="number" id="quantity" name="quantity" min="1" max="20" value="1">
+                            </form>
+
+                        <td>
+                        <span class="total-price"> ₪200 </span>
+                            <button class="del-btn"><img class="del" src="../../delete_pic.jpg" alt="delete"/></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <img class="prod-pic" src="../static/ear_piercing.jpg" alt="צמד עגילים אינדיאנים"/> </td>
+                        <td>
+                            צמד עגילים אינדיאנים
+                        </td>
+                        <td>
+
+                            <form class = "options" action="">
+                                <input class="checki" type="checkbox" id="change1" name="change11" value="Silver">
+                                <label for="change1">כסף</label><br>
+                                <input class="checki" type="checkbox" id="change2" name="change22" value="Gold">
+                                <label for="change2">זהב</label>
+                                <br>
+                                <label for="quantity5">כמות </label>
+                                <input type="number" id="quantity5" name="quantity" min="1" max="20" value="1">
+                            </form>
+
+                        </td>
+                        <td>
+                        <span class="total-price"> ₪200 </span>
+                            <button class="del-btn"><img class="del" src="../../delete_pic.jpg" alt="delete"/></button>
+                        </td>
+
+
+
+                </table>
+            </div>
+            </main>
+</body>
+<footer>
+    <div class="Footer">
+        <div class="Contact"> Contact Us </div>
+        <div class="Privacy_policy"> Privacy Policy </div>
+        <div class="About">
+            <a href="../../about/tamplates/About.html">About</a>
+        </div>
+    </div>
+</footer>
+</html>
