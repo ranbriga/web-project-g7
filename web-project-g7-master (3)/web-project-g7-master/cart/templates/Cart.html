@@ -18,7 +18,7 @@
         <header>
     <div class="Logo">
         <div class="Sign-in">
-            <img src="../general/static/userLogo.png" onclick="openSignIn()" height="30px" width="30px"></img>
+            <img src="../../general/static/userLogo.png" onclick="openSignIn()" height="30px" width="30px"></img>
             <div class="form-popup" id="mySignIn">
                     <form class="form-container">
                         <h2>Login</h2>
@@ -37,7 +37,7 @@
             </div>
         </div>
         <div class="Cart">
-            <img src="../general/static/cart.jpg" height="30px" width="30px"></img>
+            <img src="../../general/static/cart.jpg" height="30px" width="30px"></img>
         </div>
         <div class="Logo2">
             <img src="../../general/static/logo.jpeg" height="80px" width="80px"></img>
@@ -124,8 +124,28 @@
 </body>
 <footer>
     <div class="Footer">
-        <div class="Contact"> Contact Us </div>
-        <div class="Privacy_policy"> Privacy Policy </div>
+        <div class="Contact" onclick="openContactUs()">Contact Us </div>
+          <div class="form-popup" id="myContact">
+                    <form class="form-container">
+                        <h2>Contact Us:</h2>
+                        <label for="name"><b>Full Name</b></label>
+                        <br>
+                        <input type="text" placeholder="Enter Your name" name="name" required>
+                        <br>
+                        <label for="email"><b>Email</b></label>
+                        <br>
+                        <input type="email" placeholder="Enter Your Email" name="email" required>
+                        <br>
+                         <label for="massage"><b>What would you like to tell us?</b></label>
+                        <br>
+                        <input type="massage" placeholder="Enter Your Massage" name="massage" required>
+                        <button type="submit" class="btn">Send</button>
+                        <br>
+                        <button class="btn cancel" onclick="closeContactUs()">Close</button>
+                    </form>
+            </div>
+        <div class="Privacy_policy">
+            <a href="../../Privacy%20Policy/templates/Privacy%20Policy.html">Privacy Policy</a></div>
         <div class="About">
             <a href="../../about/tamplates/About.html">About</a>
         </div>
