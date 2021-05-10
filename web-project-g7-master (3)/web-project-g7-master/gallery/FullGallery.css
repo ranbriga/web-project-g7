@@ -5,6 +5,15 @@
     margin: auto;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
+    background-image: url(../general/static/Balg6Fx.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
 .row :hover{
     font-size: 35px;
 }
@@ -13,7 +22,7 @@
       height: 300px;
       position: relative;
       margin-top :50px;
-      background: url("../Tattoo_Treatments_Photo.jpeg") center;
+      background: url("../gallery/gallry_button1.jpg") center;
   }
 
   .main1 a{
@@ -30,7 +39,7 @@
         position: relative;
         margin-top :50px;
         margin-bottom :50px;
-        background: url("../homepage/static/piercing_treatments_photo.jpg") center;
+        background: url("../gallery/gallry_button2.jpg") center;
   }
 
     .main2 a{

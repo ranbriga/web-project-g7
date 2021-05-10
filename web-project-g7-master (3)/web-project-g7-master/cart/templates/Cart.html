@@ -9,12 +9,16 @@
         <link rel="stylesheet" href="../../appointment/static/Appoitment_popup.css">
         <script src="../../homepage/static/HomePage.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
 </head>
     <body>
         <header>
     <div class="Logo">
         <div class="Sign-in">
-            <img src="../../general/static/user.png" onclick="openSignIn()" height="30px" width="30px"></img>
+            <img src="../general/static/userLogo.png" onclick="openSignIn()" height="30px" width="30px"></img>
             <div class="form-popup" id="mySignIn">
                     <form class="form-container">
                         <h2>Login</h2>
@@ -33,7 +37,7 @@
             </div>
         </div>
         <div class="Cart">
-            <img src="../static/cart.png" height="30px" width="30px"></img>
+            <img src="../general/static/cart.jpg" height="30px" width="30px"></img>
         </div>
         <div class="Logo2">
             <img src="../../general/static/logo.jpeg" height="80px" width="80px"></img>
@@ -48,16 +52,16 @@
     <div class="Menu">
         <a href="../../homepage/templates/HomePage.html" class="Home">Home</a>
         <a href="../../treatment/templates/Treatments.html" class="Treatment">Treatment</a>
-        <a href="../../gallery/tattoo%20gallery/templates/Gallery.html" class="Gallery">Gallery</a>
+        <a href="../../gallery/Gallery.html" class="Gallery">Gallery</a>
         <a href="../../shop/templates/Shop.html" class="Shop">Shop</a>
-        <a href="../../User's%20Personal%20Page.html" class="Info">Info</a>
+     <a href="../../user%20personal%20page/templates/User's%20Personal%20Page.html" class="Info">Info</a>
     </div>
 </header>
 
   <main>
             <div class="my-cart">
                 <div class="title">
-                    <h1>סל קניות</h1>
+                    <h1 class="head">Shopping cart</h1>
                 </div>
 
 
@@ -86,7 +90,7 @@
 
                         <td>
                         <span class="total-price"> ₪200 </span>
-                            <button class="del-btn"><img class="del" src="../../delete_pic.jpg" alt="delete"/></button>
+                            <button class="del-btn"><img class="del" src="../static/delete_pic.jpg" alt="delete"/></button>
                         </td>
                     </tr>
                     <tr>
@@ -109,7 +113,7 @@
                         </td>
                         <td>
                         <span class="total-price"> ₪200 </span>
-                            <button class="del-btn"><img class="del" src="../../delete_pic.jpg" alt="delete"/></button>
+                            <button class="del-btn"><img class="del" src="../static/delete_pic.jpg" alt="delete"/></button>
                         </td>
 
 

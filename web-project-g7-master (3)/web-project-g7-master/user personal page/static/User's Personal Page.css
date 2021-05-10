@@ -2,6 +2,15 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
+    background-image: url(../../general/static/Balg6Fx.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
 .Users_Personal_page {
   width: 75%;
   text-align: center;
@@ -57,15 +66,19 @@
 }
 .Appblock {
   display: block;
-  width: 100%;
+  width: 81%;
   margin-top: 50px;
   border: none;
-  background: url("../../wood_calendar.jpg");
+  background: url("../../wood_calendar.jpg") center center;
   font-size: 30px;
   cursor: pointer;
   text-align: center;
   height: 300px;
   color: white;
+}
+
+.app{
+  padding-left: 7%;
 }
 
 .Appblock:hover{
@@ -82,9 +95,10 @@
 }
 .Ordersblock {
   display: block;
-  width: 100%;
+  width: 90%;
   border: none;
-  background: url("../../shopping-cart-photo.jpg");
+  background: url("../../user personal page/static/cartt.jpg") center center;
+  background-repeat: no-repeat;
   font-size: 30px;
   cursor: pointer;
   margin-top: 20px;

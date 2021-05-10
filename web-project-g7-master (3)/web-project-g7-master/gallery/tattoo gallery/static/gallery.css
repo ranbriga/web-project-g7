@@ -11,7 +11,7 @@
     height: 100%;
 }
 
-.background {
+body {
     margin-bottom: 50px;
     background-image: url(../../../general/static/Balg6Fx.jpg);
     background-repeat: no-repeat;

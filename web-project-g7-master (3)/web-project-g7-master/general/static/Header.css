@@ -51,13 +51,14 @@
     padding-top: 25px;
     padding-bottom: 25px;
     font-size: 20px;
-    border-top: black solid 2px;
-    border-bottom: black solid 2px;
+    border-top: white solid 2px;
+    border-bottom: white solid 2px;
+       font-family: 'Montserrat', sans-serif;
 }
 
 .Menu a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .Menu :hover{

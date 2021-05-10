@@ -9,12 +9,14 @@
         <script src="../../homepage/static/HomePage.js"></script>
         <script src="../static/Shop.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
 </head>
 <body>
         <header>
     <div class="Logo">
         <div class="Sign-in">
-            <img src="../../general/static/user.png" onclick="openSignIn()" height="30px" width="30px"></img>
+            <img src="../../general/static/userLogo.png" onclick="openSignIn()" height="30px" width="30px"></img>
             <div class="form-popup" id="mySignIn">
                     <form class="form-container">
                         <h2>Login</h2>
@@ -33,7 +35,7 @@
             </div>
         </div>
         <div class="Cart">
-            <img src="../../cart/static/cart.png" height="30px" width="30px"></img>
+            <img src="../../general/static/cart.jpg" height="30px" width="30px"></img>
         </div>
         <div class="Logo2">
             <img src="../../general/static/logo.jpeg" height="80px" width="80px"></img>
@@ -48,31 +50,31 @@
     <div class="Menu">
         <a href="../../homepage/templates/HomePage.html" class="Home">Home</a>
         <a href="../../treatment/templates/Treatments.html" class="Treatment">Treatment</a>
-        <a href="../../gallery/tattoo%20gallery/templates/Gallery.html" class="Gallery">Gallery</a>
+        <a href="../../gallery/Gallery.html" class="Gallery">Gallery</a>
         <a href="Shop.html" class="Shop">Shop</a>
-        <a href="../../User's%20Personal%20Page.html" class="Info">Info</a>
+        <a href="../../user%20personal%20page/templates/User's%20Personal%20Page.html" class="Info">Info</a>
     </div>
 </header>
-    <div class="Shops_title" style="color:black">SHOP</div>
+    <h1 class="Shops_title">SHOP</h1>
         <div class="Products">
             <div class="row one">
                 <div class="product one">
-                    <img src="../../cart/static/product1.jpeg" width="50%;" height="200;" alt="product1">
+                    <img class="round" src="../../cart/static/product1.jpeg" width="50%;" height="200;" alt="product1">
                     <p id="product1">Belly Piercing<br>19.90$</p>
                     <input onclick="boldIT('product1')" class="checkbox" type="checkbox">
                 </div>
                 <div class="product two">
-                    <img src="../../product2.jpeg" width="50%;" height="200;" alt="product2">
+                    <img class="round" src="../../product2.jpeg" width="50%;" height="200;" alt="product2">
                     <p id="product2">Ears Piercing<br>29.90$</p>
                     <input onclick="boldIT('product2')" class="checkbox" type="checkbox">
                 </div>
                 <div class="product three">
-                    <img src="../../piercing3.jpg" width="50%;" height="200;" alt="product3">
+                    <img class="round" src="../../piercing3.jpg" width="50%;" height="200;" alt="product3">
                     <p id="product3">Lips Piercing<br>19.90$</p>
                     <input onclick="boldIT('product3')" class="checkbox" type="checkbox">
                 </div>
                 <div class="product four">
-                    <img src="../../piercing4.jpg" width="50%;" height="200;" alt="product4">
+                    <img class="round" src="../../piercing4.jpg" width="50%;" height="200;" alt="product4">
                     <p id="product4">Tragos Piercing<br>29.90$</p>
                     <input onclick="boldIT('product4')" class="checkbox" type="checkbox">
                 </div>
@@ -84,8 +86,28 @@
 </body>
 <footer>
     <div class="Footer">
-        <div class="Contact"> Contact Us </div>
-        <div class="Privacy_policy"> Privacy Policy </div>
+        <div class="Contact" onclick="openContactUs()">Contact Us </div>
+          <div class="form-popup" id="myContact">
+                    <form class="form-container">
+                        <h2>Contact Us:</h2>
+                        <label for="name"><b>Full Name</b></label>
+                        <br>
+                        <input type="text" placeholder="Enter Your name" name="name" required>
+                        <br>
+                        <label for="email"><b>Email</b></label>
+                        <br>
+                        <input type="email" placeholder="Enter Your Email" name="email" required>
+                        <br>
+                         <label for="massage"><b>What would you like to tell us?</b></label>
+                        <br>
+                        <input type="massage" placeholder="Enter Your Massage" name="massage" required>
+                        <button type="submit" class="btn">Send</button>
+                        <br>
+                        <button class="btn cancel" onclick="closeContactUs()">Close</button>
+                    </form>
+            </div>
+        <div class="Privacy_policy">
+            <a href="../../Privacy%20Policy/templates/Privacy%20Policy.html">Privacy Policy</a></div>
         <div class="About">
             <a href="../../about/tamplates/About.html">About</a>
         </div>

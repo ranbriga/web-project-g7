@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>User's Personal Page </title>
-        <link rel="stylesheet" href="User's%20Personal%20Page.css">
+        <link rel="stylesheet" href="../../user%20personal%20page/static/User's%20Personal%20Page.css">
         <link rel="stylesheet" href="../../general/static/Header.css">
         <link rel="stylesheet" href="../../general/static/Footer.css">
         <link rel="stylesheet" href="../../appointment/static/Appoitment_popup.css">
@@ -13,7 +13,7 @@
         <header>
     <div class="Logo">
         <div class="Sign-in">
-            <img src="../../general/static/user.png" onclick="openSignIn()" height="30px" width="30px"></img>
+            <img src="../../general/static/userLogo.png" onclick="openSignIn()" height="30px" width="30px"></img>
             <div class="form-popup" id="mySignIn">
                     <form class="form-container">
                         <h2>Login</h2>
@@ -32,7 +32,7 @@
             </div>
         </div>
         <div class="Cart">
-            <img src="../../cart/static/cart.png" height="30px" width="30px"></img>
+            <img src="../../general/static/cart.jpg" height="30px" width="30px"></img>
         </div>
         <div class="Logo2">
             <img src="../../general/static/logo.jpeg" height="80px" width="80px"></img>
@@ -47,9 +47,9 @@
     <div class="Menu">
         <a href="../../homepage/templates/HomePage.html" class="Home">Home</a>
         <a href="../../treatment/templates/Treatments.html" class="Treatment">Treatment</a>
-        <a href="../../gallery/tattoo%20gallery/templates/Gallery.html" class="Gallery">Gallery</a>
+        <a href="../../gallery/Gallery.html" class="Gallery">Gallery</a>
         <a href="../../shop/templates/Shop.html" class="Shop">Shop</a>
-        <a href="User's Personal Page.html" class="Info">Info</a>
+        <a href="../../user%20personal%20page/templates/User's%20Personal%20Page.html" class="Info">Personal Area</a>
     </div>
 </header>
          <div class="Users_Personal_page">
@@ -57,8 +57,7 @@
                 <div id="Apptext"> No Appointments</div>
                 <a onclick="openAppointment()"> <div id="NewAppointment"> Make A New Appointment!</div> </a>
                 </div>
-             <button type="button" onclick="Appon()" class="Appblock">My Appointments</button>
-
+             <div class="app"> <button type="button" onclick="Appon()" class="Appblock">My Appointments</button></div>
              <div class="form-popup" id="myAppointment">
                     <form class="form-container">
                         <h2>Schedule an appointment</h2>
